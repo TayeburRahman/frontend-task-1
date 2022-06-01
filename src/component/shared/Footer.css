@@ -1,0 +1,17 @@
+.footerSvg {
+  margin: 5px;
+}
+.footer__container {
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.footer__nav {
+  font-weight: 600 !important;
+  color: #1f1f1f;
+}
+.footer_link {
+  text-decoration: none !important;
+}
+.footer_link:hover {
+  text-decoration: underline !important;
+}

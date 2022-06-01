@@ -1,0 +1,59 @@
+.slider {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card__div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.slider__text {
+  margin-bottom: 50px !important;
+}
+.card__shadow {
+  box-shadow: 4.95px 3.95px 7.6px rgb(108, 108, 108);
+  border-radius: 5px;
+}
+.card {
+  width: 100%;
+  border: 1px dotted #ff6f00;
+  text-align: left;
+}
+.textWeight {
+  font-weight: 400 !important;
+}
+.button__previous {
+  margin-right: 40px !important;
+  cursor: pointer;
+  border: none;
+  border-radius: 90px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px !important;
+}
+.previous {
+  font-size: 30px !important;
+  color: #644f9c;
+}
+
+.button__next {
+  cursor: pointer;
+  border: none;
+  border-radius: 90px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px !important;
+}
+.next {
+  font-size: 30px !important;
+  color: #644f9c;
+}
+.slick-dots {
+  position: absolute;
+  top: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li button:before {
+  font-size: 17px;
+}
